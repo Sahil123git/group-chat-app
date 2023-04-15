@@ -1,0 +1,148 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 208, 207));
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.container {
+  max-width: 955px;
+  border: 2px solid rgb(42, 117, 142);
+  border-radius: 13px;
+  margin: auto;
+  height: 60vh;
+  padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  box-shadow: 2px 5px 18px rgb(75, 179, 164);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+/* .container {
+
+  padding: 20px;
+  margin: 10px;
+
+  
+} */
+
+.message {
+  background-color: rgb(211, 204, 204);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid rgb(42, 117, 142);
+  border-radius: 10px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 1085px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#messageInp {
+  width: 80%;
+  border: 2px solid rgb(42, 117, 142);
+  border-radius: 6px;
+  height: 34px;
+  font-size: 22px;
+  padding: 8px 10px;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  margin: 0 5px;
+  width: 9%;
+  cursor: pointer;
+  border: 2px solid rgb(42, 117, 142);
+  border-radius: 6px;
+  height: 34px;
+}
+
+/*enter user Name css */
+.form-container {
+  /* background-color: #f2f2f2; */
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+/* Styling for the form container when it's revealed */
+.form-container.revealed {
+  margin-top: 0;
+  opacity: 1;
+}
+
+/* Styling for the form label */
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Styling for the input field */
+input {
+  padding: 10px 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: 700;
+}
+input:focus {
+  color: #076664;
+  border: 1px solid rgb(85, 93, 124);
+  outline: none;
+}
+/* Styling for the button */
+
+button {
+  background-color: rgb(156, 208, 207);
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Styling for the button when hovering */
+button:hover {
+  background-color: #3e8e8d;
+}
