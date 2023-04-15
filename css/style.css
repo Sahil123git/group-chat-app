@@ -132,8 +132,8 @@ input:focus {
 /* Styling for the button */
 
 button {
-  background-color: rgb(156, 208, 207);
-  color: white;
+  color: rgb(113, 187, 186);
+  background-color: #ecf7f6;
   padding: 8px 12px;
   border: none;
   border-radius: 5px;
@@ -144,5 +144,6 @@ button {
 
 /* Styling for the button when hovering */
 button:hover {
-  background-color: #3e8e8d;
+  background-color: rgb(113, 187, 186);
+  color: #effefd;
 }

@@ -1,4 +1,6 @@
 // Node server which will handle socket io connections
+//This will show output in compiler console
+
 const io = require("socket.io")(8000);
 
 const users = {};
@@ -6,6 +8,7 @@ const users = {};
 io.on("connection", (socket) => {
   // If any new user joins, let other users connected to the server know!
   socket.on("new-user-joined", (name) => {
+    // console.log(name);
     users[socket.id] = name;
     socket.broadcast.emit("user-joined", name);
   });
